@@ -2,7 +2,6 @@ import socketserver
 from config import HOST, PORT, secret_key
 import teachinbot
 import pickle
-import hmac, os
 
 class BotServer(socketserver.BaseRequestHandler):
 
